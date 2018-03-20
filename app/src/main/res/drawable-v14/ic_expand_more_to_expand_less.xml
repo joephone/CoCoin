@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_expand_less_vector">
+
+    <target
+        android:name="rotationGroup"
+        android:animation="@anim/expand_more_to_expand_less_rotation" />
+
+</animated-vector>
 <!--
        Copyright (C) 2015 Haruki Hasegawa
 
@@ -14,11 +22,4 @@
        See the License for the specific language governing permissions and
        limitations under the License.
 -->
-<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/ic_expand_less_vector">
 
-    <target
-        android:name="rotationGroup"
-        android:animation="@anim/expand_more_to_expand_less_rotation" />
-
-</animated-vector>
